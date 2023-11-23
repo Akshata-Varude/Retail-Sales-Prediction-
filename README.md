@@ -27,7 +27,7 @@ Applied various transformation techniques to achieve normal distribution of data
 
 - Model Selection and Training:
 Split the preprocessed data into training and testing sets.
-Utilized a variety of machine learning algorithms, including linear regression, decision trees, random forests, LightGBM, and XGBoost.
+Utilized a variety of machine learning algorithms, including linear regression, decision trees, random forests, and XGBoost.
 Evaluated model performance using metrics such as R-squared score, accuracy, and mean absolute percentage error (MAPE).
 Employed regularization techniques (e.g., Lasso, Ridge, Elastic Net) for improved model performance.
 Identified XGBoost as the optimal model due to its high accuracy, with a MAPE of only 2% and an R-squared score of 0.94.
