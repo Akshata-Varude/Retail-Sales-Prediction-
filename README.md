@@ -30,10 +30,12 @@ Evaluated model performance using metrics such as R-squared score, accuracy, and
 Employed regularization techniques (e.g., Lasso, Ridge, Elastic Net) for improved model performance.
 Identified XGBoost as the optimal model due to its high accuracy, with a MAPE of only 2% and an R-squared score of 0.94.
 
-- Model Deployment and Conclusion:
-Finalized the XGBoost model for deployment, as it demonstrated the highest accuracy and the least error.
-Developed a comprehensive machine learning pipeline that combines data processing, feature engineering, and model evaluation.
-Successfully created a model capable of accurately predicting sales for Rossmann stores up to six weeks in advance.
+- Conclusion:
+In Linear Regression we got the accuracy of ~93% and the model is capturing 75% of variance even after using regularization techniques that means our data is not perfectly linearly dependent with target variable(Sales).
+For Decsion Tree we have achieved ~96.3% accuracy with maximum depth of 18 and on increasing the depth over it we are falling towards overfitting and MAPE of 3.6% which ultimately increases the mean absolute percentage error.
+Giving preference to each of the variable always results in better accuracy as small subsets can provide significant accuracy percentage. Ensemble technique i.e Random Forest has given the accuray of ~96.96% with total trees of 100 in the forest with hyperparameter tuning.
+At last we have implemented our final model i.e XGboost and achieved the accuracy of 97% with mean absolute percentage error of only 2%. Also we got the mean and median of residuals at 0.09 which is indicating towards excellent residual plot.
 
 This project showcases the effective utilization of data analysis, feature engineering, and machine learning techniques to solve a real-world forecasting problem. The insights gained from the analysis provide valuable information for decision-making within the retail industry.
 
+For complete project video explaination and to downoad the dataset: https://drive.google.com/drive/folders/1BzDNIaN6IDLr3u58tUhfwHV5-bIs8GYG?usp=drive_link
